@@ -297,3 +297,92 @@ p,a{
         text-align: left;
     }
 }
+/*seccion servicios*/
+.servicios{
+    padding-top: 5rem;
+
+}
+.servicios h2{
+    font-size:  5rem;
+    text-align: center;
+    color: var(--azulClaro);
+
+}
+@media(min-width: 768px){
+    .contenido-servicio{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 4rem;
+    }
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio img{
+    background-color: var(--azulClaro);
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 10px 10px 16px -6px rgba(0, 0, 0, 0.45);
+    transition: all .3s ease-in-out;
+}
+.servicio h3{
+    font-size: 2.2rem;
+    color: var(--azulOscuro);
+
+}
+.servicio p{
+    font-size: 1.8rem;
+    text-align: center;
+}
+@media(min-width: 768px){
+    .servicio p{
+        text-align: left;
+    }
+}
+@media(min-width: 768px){
+    .servicio :hover{
+        cursor: pointer;
+    }
+    .servicio:hover .fas{
+        background-color: var(--azulOscuro);
+    }
+}
+/*seccion contacto*/
+.contacto{
+    padding-top: 5rem;
+}
+.contacto h2{
+    text-align: center;
+    color: var(--azulClaro);
+    font-size: 5rem;
+}
+@media(min-width: 768px){
+    .contenido-contacto{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+.informacion-contacto{
+    background-image: url('../img/empresa5.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media(min-width: 768px){
+    .informacion-contacto{
+        height: 100vh;
+    }
+}
