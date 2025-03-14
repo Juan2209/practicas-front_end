@@ -1,0 +1,151 @@
+body
+{
+background-image:url(imagenes/symphony.png);
+margin: 10px auto;
+width:70%;
+font-family: "Roboto";
+}
+header{
+width:100%; /*Establecemos que el header abarque el 100% del documento */
+overflow:hidden; /*Eliminamos errores de float*/
+background-color: #ececec;
+margin-bottom:0px;
+padding: 0px;
+border-radius: 25px 25px 0px 0px; /*superior, derecho inferior, izquierdo*/
+border-style: none;
+}
+header>div>h1,h2
+{
+font-family: "Roboto";
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight:bold;
+text-align: center;
+margin: 20px 20px 0px 70px;
+}
+header>div>p
+{
+font_family: "Roboto";
+text-align: center;
+margin: auto;
+size: 14px;
+margin: 0px 20px 0px 70px;
+line-height: 1.5;
+}
+.divizq{
+float: left;
+width: 30%;
+margin-top: 0px;
+align-contend: center;
+
+}
+.divder{
+float: right;
+width: 70%;
+margin-top: auto;
+text-align:center;
+align-contend: center;
+
+}
+.imgizq
+{
+float:left;
+padding 0px 0px 0px 0px; /*superior,, derecho, inferior, izquierdo*/
+width: 300px;
+height: 341px;
+margin-top:0px;
+}
+li
+{
+font-family: "Roboto";
+text-align: justify;
+margin: auto;
+size: 10px;
+line-height: 2;
+}
+.listaside
+{
+font-family: "Roboto";
+text-align: justify;
+margin: auto;
+size: 10px;
+line-height: 1;
+}
+section
+{
+
+float: right;
+width: 65%;
+text-align:justify;
+margin-top: 0px;
+background-color: #fff;
+}
+article{
+margin-bottom: 5px;
+padding: 10px;
+border-radius: 10px 10px 10px 10px;
+border-style: solid;
+border-width: 0px;
+background-color: #fff;
+}
+aside{
+
+float: left;
+width: 35%;
+text-align: justify;
+margin-top: 0px;
+background-color: #ececec;
+}
+blockquote
+{
+margin-bottom: 5px;
+padding: 10px;
+border-radius: 10px 10px 10px 10px;
+border-style: solid;
+border-width: 2px;
+border-color: #ececec;
+background-color:#ececec;
+}
+.icon
+{
+width: 15px;
+height: 15px;
+padding: 10px;
+background-color: rgb(243, 241, 241);
+border-radius: 100%;
+float: left;
+margin-right: 10px;
+vertical-align: middle;
+}
+.botonredes
+{
+display: inline-flex;
+width: 20px;
+height: 20px;
+padding: 10px;
+background-color:rgb(245, 245, 245);
+border-radius: 100%;
+}
+.botonredes img
+{
+width: 20px;
+height: 20px;
+}
+footer
+{
+width:100%; /*Establecemos que el header abarque el 100% del documento */
+overflow:hidden; /*Eliminamos errores de float*/
+background-color: #ececec;
+margin-bottom:0px;
+padding: 0px;
+border-radius: 0px 0px 25px 25px; /*superior, derecho inferior, izquierdo*/
+border-style: none;
+
+}
+.contenedor
+{
+padding: 10px 20px 10px 20px;
+background rgba(255, 255, 255, 0.67);
+border-radius: 2em; /*redondea el borde */
+box-shadow: 0px 5px 3px rgba(0, 0, 0, .4);
+}
